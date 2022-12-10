@@ -1,5 +1,4 @@
 # UTS_NO3_C_3064
-
-# BEBBY KA'AFIYAN FARHAN
+# Bebby Ka'afiyan Farhan
 # 21103064
-# REVISI UTS PBO NO 3
+# Revisi uts pbo no 3
