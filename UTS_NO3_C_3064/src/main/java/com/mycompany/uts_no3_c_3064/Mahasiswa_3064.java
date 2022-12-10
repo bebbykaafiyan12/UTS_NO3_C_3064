@@ -12,11 +12,11 @@ public class Mahasiswa_3064 {
     protected String nim, nama, jurusan;
     protected int ipk;
     
-    public void tampilDataMhs() {
-        System.out.println(" NIM    : " + nim);
-        System.out.println("Nama    " + nama);
-        System.out.println("Jurusan    : " + jurusan);
-        System.out.println("IPK : " + ipk);
+    public void tampilDataMhs(){
+        System.out.println("NIM : "+nim);
+        System.out.println("Nama : "+ nama);
+        System.out.println("Jurusan : "+ jurusan);
+        System.out.println("IPK : "+ ipk);
     }
+    
 }
-

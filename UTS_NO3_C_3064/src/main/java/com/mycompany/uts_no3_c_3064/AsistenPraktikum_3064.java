@@ -17,12 +17,11 @@ public class AsistenPraktikum_3064 extends Mahasiswa_3064 {
     }
     public void tampilDataAsistenPraktikum() {
         super.tampilDataMhs();
-        System.out.println(" Mata Kuliah    : " + mkAsisten);
+        System.out.println(" Mata Kuliah        : " + mkAsisten);
         System.out.println(" Jumlah Pertemuan   : " + jmlPertemuan);
-        System.out.println(" Total Pendapatan : " + totalPendapatan());
+        System.out.println(" Total Pendapatan   : " + totalPendapatan());
         
         
     }
     
 }
-

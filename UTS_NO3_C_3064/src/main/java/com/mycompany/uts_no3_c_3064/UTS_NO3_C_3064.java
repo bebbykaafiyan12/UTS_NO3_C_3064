@@ -15,7 +15,6 @@ import java.io.InputStreamReader;
 public class UTS_NO3_C_3064 {
 
     public static void main(String[] args) {
-        
         //Membuat object menggunakan array
         AsistenPraktikum_3064[] ap = new AsistenPraktikum_3064[1];
         StudentStaff_3064[] ss = new StudentStaff_3064[1];
@@ -29,6 +28,8 @@ public class UTS_NO3_C_3064 {
         try {
             //mengisi data ke array pada data Asisten Praktikum
             for(int i = 0; i < 1; i++){
+                System.out.println("Jumlah Asisten Praktikum : 1");
+                System.out.println("=== Input Data Asisten Praktikum ===");
                 System.out.print("NIM              : ");
                 ap[i].nim = br.readLine();
                 System.out.print("Nama             : ");
@@ -44,15 +45,17 @@ public class UTS_NO3_C_3064 {
                 System.out.println();
             }
             
-            //Menampilkan semua isi array pada data Asisten Praktikum
-            System.out.println("DATA ASISTEN PRAKTIKUM");
+            //Menampilkan semua isi array pada data Asisten Praktikum 
+            System.out.println("=== DATA ASISTEN PRAKTIKUM ===");
             for(AsistenPraktikum_3064 AP : ap){
                 AP.tampilDataAsistenPraktikum();
                 System.out.println("");
             }
 
-            //mengisi data ke array pada data Student Staff
+            //mengisi data ke array pada data Student Staff 
             for(int i = 0; i < 1; i++){
+                System.out.println("Jumlah Student Staff : 1");
+                System.out.println("=== Input Data Student Staff ===");
                 System.out.print("NIM         : ");
                 ss[i].nim = br.readLine();
                 System.out.print("Nama        : ");
@@ -61,14 +64,14 @@ public class UTS_NO3_C_3064 {
                 ss[i].jurusan =br.readLine();
                 System.out.print("IPK         : ");
                 ss[i].ipk =Integer.parseInt(br.readLine());
-                System.out.print(" Unit Kerja : ");
-                ss[i].unitKerja = Integer.parseInt(br.readLine());
+                System.out.print("Unit Kerja : ");
+                ss[i].unitKerja = br.readLine();
                 System.out.print("Jam Kerja   : ");
                 ss[i].jamKerja = Integer.parseInt(br.readLine());
                 System.out.println();
             }
             
-            //Menampilkan semua isi array pada data Studend Staff
+            //Menampilkan semua isi array pada data Student Staff 
             System.out.println("DATA STUDENT STAFF");
             for(StudentStaff_3064 SS : ss){
                 SS.tampilDataStudentStaff();
@@ -80,4 +83,4 @@ public class UTS_NO3_C_3064 {
         }
         
     }
-}
+    }
